@@ -1,0 +1,387 @@
+/**************************************************
+Fonts
+Droid Serif
+Droid Sans
+Droid Sans Mono
+
+Font Scaling
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1.0rem
+0.618rem
+
+Colour scheme
+
+**************************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Cuprum|Prociono|Secular+One|Roboto+Condensed');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Cuprum', 'Secular One', 'Roboto Condensed', 'Prociono', sans-serif;
+}
+
+body {
+    background-color: dimgray
+}
+
+
+/*************************** 
+DEFAULTS - MOBILE FIRST 
+***************************/
+
+h1 {
+    font: bold 4.236rem 'Prociono', serif;
+}
+
+h2 {
+    font: bold 2.618rem 'Prociono', serif;
+}
+
+li,
+p,
+a {
+    font: bold 1.618rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+}
+
+pre,
+code,
+kbd {
+    font: normal 1.0rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+}
+
+
+/***************************
+    LAYOUT - MOBILE FIRST
+***************************/
+
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+header {
+    width: 100%;
+    background: url(http://loremflickr.com/680/320/galaxy,universe) no-repeat no-repeat;
+    background-color: gainsboro;
+    background-size: 100%;
+    color: aliceblue
+}
+
+header h1 {
+    font-size: 45px;
+    padding: 10px 5px;
+}
+
+nav {
+    width: 100%;
+}
+
+nav>ul {
+    width: 100%;
+}
+
+nav li {
+    width: 100%;
+    list-style: none;
+    border: 2px solid black;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+    display: block;
+    font: bold 1.618rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:active,
+nav a:focus,
+nav a:hover {}
+
+main {
+    width: 100%;
+}
+
+.col {
+    float: none;
+    width: 100%;
+}
+
+.col h2 {
+    margin: 10px 5px;
+}
+
+.col img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-color: azure;
+}
+
+.col p {
+    font-weight: 400;
+    text-align: justify;
+    margin: 10px 0;
+    padding: 0 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    border-top: 2px solid black;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    font: normal 1rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+}
+
+footer>ul {
+    width: 100%;
+}
+
+footer li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+footer a,
+footer a:link,
+footer a:visited {
+    font: bold 1rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media screen and (min-width:600px) {
+    .wrapper {
+        width: 100%;
+    }
+    header h1 {
+        font-size: 50px;
+        padding: 10px 5px;
+    }
+    nav {
+        margin: auto;
+        width: 90%;
+    }
+    nav>ul {
+        float: left;
+        width: 100%;
+        border: 2px solid black;
+        text-align: center;
+    }
+    nav li {
+        width: 20%;
+        float: left;
+        border: none;
+        margin: 0 0;
+    }
+    nav a,
+    nav a:link,
+    nav a:visited {
+        font: bold 1.518rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+    }
+    main {
+        margin: auto;
+        width: 90%;
+    }
+    .col {
+        float: left;
+        width: 50%;
+        padding-right: 20px;
+        margin-right: 0;
+    }
+    .col h2 {
+        margin: 10px 5px;
+    }
+    .col img {
+        width: 50%;
+        height: auto;
+        max-width: 50%;
+        float: left;
+        margin: 0 10px 0 0;
+    }
+    .col p {
+        font-weight: 400;
+        text-align: justify;
+        margin: 10px 0;
+        padding: 0;
+    }
+    footer {
+        border-top: 2px solid black;
+        padding: 10px 0;
+        width: 100%;
+        text-align: left;
+    }
+    footer p {
+        padding: 0px 5px;
+        display: inline-block;
+        width: 49%;
+        font: normal 1rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+    }
+    footer>ul {
+        text-align: left;
+        display: inline-block;
+        width: 49%;
+    }
+    footer li {
+        margin: 0 2px 0 0;
+    }
+    footer a,
+    footer a:link,
+    footer a:visited {
+        font: bold 1rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    header h1 {
+        font-size: 55px;
+    }
+    nav {
+        margin: auto;
+        width: 90%;
+    }
+    nav>ul {
+        float: left;
+        width: 100%;
+        border: none;
+        text-align: left;
+    }
+    nav li {
+        text-align: left;
+        width: 20%;
+        float: left;
+        border: none;
+        margin: 0 0;
+    }
+    nav a,
+    nav a:link,
+    nav a:visited {
+        text-align: left;
+        font: bold 1.518rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+    }
+    .col h2 {
+        font-size: 45px;
+        margin: 10px 5px;
+    }
+    footer {
+        border-top: 2px solid black;
+        padding: 10px 0;
+        width: 100%;
+        text-align: left;
+    }
+    footer p {
+        padding: 0px 5px;
+        display: inline-block;
+        width: 49%;
+        font: normal 1.1rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+    }
+    footer>ul {
+        text-align: right;
+        display: inline-block;
+        width: 49%;
+    }
+    footer li {
+        margin: 0 5px;
+    }
+    footer a,
+    footer a:link,
+    footer a:visited {
+        font: bold 1.1rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    header h1 {
+        font-size: 55px;
+        padding: 10px 5px;
+    }
+    nav {
+        width: 30%;
+        float:left;
+        margin: auto;
+    }
+    nav>ul {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 15px 0;
+    }
+    nav li {
+        width: 100%;
+        float: none;
+        border: none;
+        padding: 0 20px;
+    }
+    nav a,
+    nav a:link,
+    nav a:visited {
+        font: bold 2.18rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+    }
+    main {
+        margin: auto;
+        width: 70%;
+        float: left;
+    }
+    .col {
+        float: left;
+        width: 50%;
+        padding-right: 20px;
+        margin-right: 0;
+    }
+    .col h2 {
+        margin: 10px 5px;
+    }
+    .col p{
+        font: normal 1.7rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+    }
+    .col img {
+        width: 55%;
+        max-width: 55%;
+        float: left;
+        margin: 0 10px 0 0;
+    }
+    footer {
+        border-top: 2px solid black;
+        padding: 10px 0;
+        width: 100%;
+        text-align: left;
+    }
+    footer p {
+        padding: 0px 5px;
+        display: inline-block;
+        width: 49%;
+        font: normal 1.3rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+    }
+    footer>ul {
+        text-align: right;
+        display: inline-block;
+        width: 49%;
+    }
+    footer li {
+        margin: 0 0 0 10px ;
+    }
+    footer a,
+    footer a:link,
+    footer a:visited {
+        font: bold 1.3rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+    }
+}
