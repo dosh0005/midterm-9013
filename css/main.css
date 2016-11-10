@@ -1,8 +1,9 @@
 /**************************************************
 Fonts
-Droid Serif
-Droid Sans
-Droid Sans Mono
+Roboto Condensed
+Secular One
+Prociono
+Cuprum
 
 Font Scaling
 6.854rem
@@ -30,7 +31,7 @@ html {
 }
 
 body {
-    background-color: dimgray
+    background-color: lightgray;
 }
 
 
