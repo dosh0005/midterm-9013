@@ -135,6 +135,7 @@ main {
     text-align: justify;
     margin: 10px 0;
     padding: 0 5px;
+    font: bold 1.618rem 'Secular One', 'Roboto Condensed', 'Cuprum', sans-serif;
 }
 
 .clear {
@@ -224,6 +225,7 @@ footer a:visited {
         text-align: justify;
         margin: 10px 0;
         padding: 0;
+        font: normal 1.318rem 'Secular One', 'Roboto Condensed', 'Cuprum', sans-serif;
     }
     footer {
         border-top: 2px solid black;
@@ -283,6 +285,10 @@ footer a:visited {
         font-size: 45px;
         margin: 10px 5px;
     }
+    .col p {
+        font: normal 1.418rem 'Cuprum', 'Secular One', 'Roboto Condensed', sans-serif;
+        font-weight: 400;
+    }
     footer {
         border-top: 2px solid black;
         padding: 10px 0;
@@ -317,7 +323,7 @@ footer a:visited {
     }
     nav {
         width: 30%;
-        float:left;
+        float: left;
         margin: auto;
     }
     nav>ul {
@@ -351,8 +357,9 @@ footer a:visited {
     .col h2 {
         margin: 10px 5px;
     }
-    .col p{
-        font: normal 1.7rem 'Roboto Condensed', 'Secular One', 'Cuprum', sans-serif;
+    .col p {
+        font: bold 1.618rem 'Roboto Condensed','Cuprum', 'Secular One',  sans-serif;
+        font-weight: 700;
     }
     .col img {
         width: 55%;
@@ -378,7 +385,7 @@ footer a:visited {
         width: 49%;
     }
     footer li {
-        margin: 0 0 0 10px ;
+        margin: 0 0 0 10px;
     }
     footer a,
     footer a:link,
